@@ -1,0 +1,196 @@
+/* Смотри сколько снизу свободного места! Оно идеально подойдёт, чтобы писать твои стили! */
+.button.default {
+	height: 48px;
+	border: 2px solid #42940F;
+	border-radius: 8px;    
+	color: #42940F;
+	font-family: Arial;
+	font-weight: 900;
+	font-size: 18px;
+	line-height: 25px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	touch-action: manipulation; 
+	
+  width: -moz-calc(100% - 48px);
+  width: -webkit-calc(100% - 48px);
+  width: -o-calc(100% - 48px);
+  width: calc(100% - 48px);
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-bottom: 24px;
+  
+}
+
+
+
+.button.disabled 
+	height: 48px;
+	border: 1px solid #4E4E4E;
+	border-radius: 8px;
+	background-color: #4E4E4E;
+	color: #FFFFFF;
+	font-family: Arial;
+	font-weight: 900;
+	font-size: 18px;
+	line-height: 25px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.button.default: disabled 
+	border: 1px solid #4E4E4E;
+	background-color: #4E4E4E;
+	pointer-events: none;
+}
+
+.button.default: hover {
+	border: 1px solid #42940F;
+	background-color: #42940F;
+}
+
+.button.hovered 
+	width: 272px;
+	height: 48px;
+	box-sizing: border-box;
+	border: 1px solid #42940F;
+	border-radius: 8px;
+	background-color: #42940F;
+	color: #FFFFFF;
+	font-family: Arial;
+	font-weight: 900;
+	font-size: 18px;
+	line-height: 25px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	
+	
+}
+
+.button.default: active {
+	border: 1px solid #42940F;
+	background-color: #42940F;
+}
+
+.button.active 
+	width: 272px;
+	height: 48px;
+	box-sizing: border-box;
+	border: 1px solid #1F5200;
+	border-radius: 8px;
+	background-color: #1F5200;
+	color: #FFFFFF;
+	font-family: Arial;
+	font-weight: 900;
+	font-size: 18px;
+	line-height: 25px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.new {
+	padding-left: 16px;
+	padding-right: 16px;
+	height: 24px;
+	border-radius: 8px;
+	background-color: #FDCFF3;
+	color: #2F2F2F;
+	font-family: Arial;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.last {
+	padding-left: 16px;
+	padding-right: 16px;
+	height: 24px;
+	border-radius: 8px;
+	background-color: #FFCF56;
+	color: #2F2F2F;
+	font-family: Arial;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.background {
+	background: #F6F6F6;
+	width: 1920px;
+	height: 694px;
+}
+
+h1 {
+	font-weight: 900;
+	height: 72px;
+	font-size: 48px;
+	line-height: 72px;
+	font-family: Arial;
+	color: #000000;
+	margin-bottom: 40px;
+	margin-top: 40px;
+	text-align: center;
+}
+
+.product-cards-flex-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: center;
+	border-radius: 12px;
+	position: absolute;
+}
+
+.item {
+	width: 380px;
+	height: 481.75px;
+	border-radius: 12px;
+	background: #FFFFFF;
+	overflow: hidden;
+	margin-right: 10px;
+	margin-left: 10px;
+	flex: 0 0 380px;
+}
+
+.heading {
+	width: 332px;
+	height: 36px;
+	margin-top: 24px;
+	margin-right:  24px;
+	margin-left: 24px;
+	margin-bottom: 16px;
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 24px;
+	line-height: 36px;
+	color: #2F2F2F;
+	
+}
+
+.description {
+	padding-top: 16px;
+	padding-right: 24px;
+	padding-left: 24px;
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #2F2F2F;
+}

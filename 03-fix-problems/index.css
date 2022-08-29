@@ -1,0 +1,52 @@
+* {
+	margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+	margin: 1e-7em;
+	background: cornsilk;
+}
+
+.article {
+	max-width: 680px;
+	padding: 24px 24px 24px 24px;
+	margin-left: auto;
+    margin-right: auto;
+	text-align: left;
+	font-family: sans-serif;
+	background-clip: border-box;
+	background-origin: padding-box;
+	background-size: auto;
+}
+
+.article__heading {
+	font-size: 24px;
+	font-weight: 700;
+	color: palevioletred;
+	margin: 0 0 1.5rem 0;
+	margin-bottom: 24px;
+	text-align: left;
+	font-family: sans-serif;
+}
+
+.article .article__lead {
+	font-weight: 700;
+    text-transform: uppercase;
+    font-style: italic;
+    font-family: serif;
+	margin-block-end: 16px;
+	margin-block-start: 16px;
+	text-align: left;
+}
+
+.figure__image {
+    height: auto;
+    max-width: 100%;
+    }
+	
+.figure__caption {
+	text-align: center;
+	margin: 8px 0 0;
+    font-style: italic;
+}
